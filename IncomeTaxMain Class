@@ -22,7 +22,7 @@ public class IncomeTaxMain {
         int taxToPay;
         int i;
 
-        int []    salary   = {   0,  20000, 50000, 100000, Integer.MAX_VALUE };
+        int [] salary   = {   0,  20000, 50000, 100000, Integer.MAX_VALUE };
         int [] newSalary = {10000, 50000, 50001, 100001, -1};
         double [] taxTable = { 0.0,   0.10,  0.20,   0.30, 0.40 };
         double [] newTaxTable = {0.1, 0.3, 0.5, 0.7, 0.9};
